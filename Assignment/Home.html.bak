@@ -1,0 +1,103 @@
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+<link rel="stylesheet" type="text/css" href="Css/style.css" />
+
+        <title>Home Page</title>
+    </head>
+    <body>
+          <div class="header">
+    <div class="logo_head">
+      
+	      <div class="logo">
+              <img src="Images/logo1.jpg" alt="no image">
+                 
+          </div>
+       
+         <div class="menu">
+                 <ul>
+                 <li><a href="#">Menu 1</a></li>
+		<li><a href="#">Menu 2</a></li>
+                <li><a href="#">Menu 3</a>
+                	<ul>
+			<li><a href="#">a</a></li>
+			<li><a href="#">b</a></li>
+			<li><a href="#">c</a></li>
+			<li><a href="#">d</a></li>
+			</ul>
+                  </li>
+                 <li><a href="#">Menu 4</a></li>
+                 <li><a href="#">Menu 5</a></li>
+                  
+		</ul>
+                 </div>
+<div class="clear"></div>
+                 </div>
+<div class="clear"></div>
+</div>
+<div class="content">
+
+<div class="welcome">
+<h2>welcome message</h2>
+<p>Welcome and thank you for taking time to visit my website. 
+As one of your elected representatives I want to make sure that you get chance to see 
+what I doing and for you to get to raise issues with me.
+ My intention always is to be as open as possible share whatever information that I have as widely as possible. 
+I do however understand how important it is for people to know that they can come to me in confidence 
+so the website will not contain any personal issues unless it has the constant for the individual.</p>
+</div>
+
+<div class="menu_heading">
+<h3>heading 1</h3>
+<p>Welcome and thank you for taking time to visit my website. 
+As one of your elected representatives I want to make sure that you get chance to see 
+what I doing and for you to get to raise issues with me.
+ My intention always is to be as open as possible share whatever information that I have as widely as possible. 
+I do however understand how important it is for people to know that they can come to me in confidence 
+so the website will not contain any personal issues unless it has the constant for the individual.</p>
+<input type="button" value="readmore" />
+</div>
+
+<div class="menu_heading">
+<h3>heading 1</h3>
+<p>Welcome and thank you for taking time to visit my website. 
+As one of your elected representatives I want to make sure that you get chance to see 
+what I doing and for you to get to raise issues with me.
+ My intention always is to be as open as possible share whatever information that I have as widely as possible. 
+I do however understand how important it is for people to know that they can come to me in confidence 
+so the website will not contain any personal issues unless it has the constant for the individual.</p>
+<input type="button" value="readmore" />
+
+</div>
+
+<div class="menu_heading">
+<h3>heading 1</h3>
+<p>Welcome and thank you for taking time to visit my website. 
+As one of your elected representatives I want to make sure that you get chance to see 
+what I doing and for you to get to raise issues with me.
+ My intention always is to be as open as possible share whatever information that I have as widely as possible. 
+I do however understand how important it is for people to know that they can come to me in confidence 
+so the website will not contain any personal issues unless it has the constant for the individual.</p>
+<input type="button" value="readmore" />
+
+</div>
+<div class="clear"></div>
+
+</div>
+<div class="footer men">
+<span >facebook |
+linkedin |
+Google+ |
+Twitter |</span>
+</div>
+<div class="support">
+<a href="#">Support</a>
+<a href="#">Help</a>
+
+</div>
+    </body>
+</html>

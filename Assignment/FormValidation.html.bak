@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <title>Form Validation</title>
+  <script>
+  function inputfunc(){
+  var x=document.getElementById("fname").value;
+if (x==null || x=="")
+  {
+  alert("Name Field must not be empty");
+
+  }
+
+var radiocheck= document.getElementById("myRadio").checked;
+if(radiocheck==false)
+{
+alert("Radio Button not Checked");
+}
+  }
+  </script>
+
+ </head>
+ <body>
+  <form name="myForm">
+First name: <input id="fname" type="text" name="name"></br>
+Radio button:<input type="radio" id="myRadio">
+<input type="submit" value="Submit" onclick="inputfunc()">
+</form>
+
+ </body>
+</html>

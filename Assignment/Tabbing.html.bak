@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<link rel="stylesheet" type="text/css" href="Css/TabbingCss.css" />
+        <title>Tabbing Page</title>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+</script>
+<script>
+$(document).ready(function(){
+$("#1,#2,#3").hide();
+
+  $("li").click(function(){
+	  $("#1,#2,#3").hide();
+    var index=$("li").index(this);
+var divindex=index+1;
+$("#"+divindex).show();
+
+  });
+});
+
+
+</script>
+
+
+    </head>
+    <body>
+
+		  <div class="header">
+
+     
+         <div class="menu">
+                 <ul>
+                 <li id="menu1"><a href="#">Menu 1</a></li>
+		<li id="menu2"><a href="#">Menu 2</a></li>
+                <li id="menu3"><a href="#">Menu 3</a></li>
+</ul>
+
+</div>
+<div class="clear"></div>
+</div>
+<div id="content">
+<div id="1"><h3>heading 1</h3>
+<p>Welcome and thank you for taking time to visit my website. 
+As one of your elected representatives I want to make sure that you get chance to see 
+what I doing and for you to get to raise issues with me.
+ My intention always is to be as open as possible share whatever information that I have as widely as possible. 
+I do however understand how important it is for people to know that they can come to me in confidence 
+so the website will not contain any personal issues unless it has the constant for the individual.</p>
+<input type="button" value="readmore" /></div>
+
+<div id="2"><h3>heading 2</h3>
+<p>Welcome and thank you for taking time to visit my website. 
+As one of your elected representatives I want to make sure that you get chance to see 
+what I doing and for you to get to raise issues with me.
+ My intention always is to be as open as possible share whatever information that I have as widely as possible. 
+I do however understand how important it is for people to know that they can come to me in confidence 
+so the website will not contain any personal issues unless it has the constant for the individual.</p>
+<input type="button" value="readmore" /></div>
+
+<div id="3"><h3>heading 3</h3>
+<p>Welcome and thank you for taking time to visit my website. 
+As one of your elected representatives I want to make sure that you get chance to see 
+what I doing and for you to get to raise issues with me.
+ My intention always is to be as open as possible share whatever information that I have as widely as possible. 
+I do however understand how important it is for people to know that they can come to me in confidence 
+so the website will not contain any personal issues unless it has the constant for the individual.</p>
+<input type="button" value="readmore" /></div>
+</div>
+</body>
+</html>
